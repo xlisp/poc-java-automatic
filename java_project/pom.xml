@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:project xmlns:ns0="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <ns0:modelVersion>4.0.0</ns0:modelVersion>
+
+    <ns0:groupId>com.example</ns0:groupId>
+    <ns0:artifactId>java-autogen-project</ns0:artifactId>
+    <ns0:version>1.0-SNAPSHOT</ns0:version>
+
+    <ns0:properties>
+        <ns0:maven.compiler.source>11</ns0:maven.compiler.source>
+        <ns0:maven.compiler.target>11</ns0:maven.compiler.target>
+        <ns0:project.build.sourceEncoding>UTF-8</ns0:project.build.sourceEncoding>
+        <ns0:junit.jupiter.version>5.9.2</ns0:junit.jupiter.version>
+        <ns0:project.created.by>xlisp</ns0:project.created.by>
+        <ns0:project.created.date>2025-04-10 06:41:25</ns0:project.created.date>
+    </ns0:properties>
+
+    <ns0:dependencies>
+    <dependency><groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter-api</artifactId><version>5.9.2</version></dependency><dependency><groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter-engine</artifactId><version>5.9.2</version></dependency><dependency><groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter-params</artifactId><version>5.9.2</version></dependency></ns0:dependencies>
+
+    <ns0:build>
+        <ns0:plugins>
+            <ns0:plugin>
+                <ns0:groupId>org.apache.maven.plugins</ns0:groupId>
+                <ns0:artifactId>maven-surefire-plugin</ns0:artifactId>
+                <ns0:version>3.0.0</ns0:version>
+            </ns0:plugin>
+            <ns0:plugin>
+                <ns0:groupId>org.apache.maven.plugins</ns0:groupId>
+                <ns0:artifactId>maven-compiler-plugin</ns0:artifactId>
+                <ns0:version>3.10.1</ns0:version>
+                <ns0:configuration>
+                    <ns0:source>${maven.compiler.source}</ns0:source>
+                    <ns0:target>${maven.compiler.target}</ns0:target>
+                </ns0:configuration>
+            </ns0:plugin>
+        </ns0:plugins>
+    </ns0:build>
+</ns0:project>
